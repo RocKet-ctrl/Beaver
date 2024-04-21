@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/nav_main_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scan_apk"
+            android:icon="@drawable/ic_menu_android_black"
+            android:title="@string/scan_apk" />
+        <item
+            android:id="@+id/nav_custom_scan"
+            android:icon="@drawable/ic_menu_custom_scan_black"
+            android:title="@string/custom_scan" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings_black"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_help_black"
+            android:title="@string/help" />
+    </group>
+
+    <group android:id="@+id/nav_extra_group"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_info_black"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_bug_report"
+            android:icon="@drawable/ic_menu_bug_report_black"
+            android:title="@string/report_a_bug" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/share" />
+    </group>
+
+</menu>
