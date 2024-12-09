@@ -38,7 +38,7 @@ Requirements:
 •	Java 8 or higher for development.
 Steps to install and run:
 1.	Clone the repository:
-2.	git clone https://github.com/your-username/Beaver.git
+2.	git clone 
 3.	Open the project in Android Studio.
 4.	Build the project and install the APK on your Android device.
 5.	Run the app and scan your installed applications for potential malware.
